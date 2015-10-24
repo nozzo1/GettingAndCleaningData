@@ -20,7 +20,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 + Extracts only the measurements on the mean and standard deviation for each measurement. 
 + Uses descriptive activity names to name the activities in the data set
 + Appropriately labels the data set with descriptive variable names. 
-+ From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.* Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
++ Outputs a file named 'tidydata.txt' that contains the data in a format referenceing the Subject and the Activity along with measurement data.
 
 ## Guide to files in this Git Repo
 
@@ -31,9 +31,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 ## Reproducing Results
 
-1. clone this repository: `git clone git@github.com:maurotrb/getting-cleaning-data-2014-project.git`
-2. download [compressed raw data](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-3. unzip raw data and copy the directory `UCI HAR Dataset` to the cloned repository root directory
-4. open a R console and set the working directory to the repository root (use setwd())
-5. source run_analisys.R script (it requires the plyr package): `source('run_analysis.R')`
+Copy the .R scripts in to an empty directory and execute.
+The script downloads, extracts, manipulates the data and saves a single tidydata.txt file.
+
 
