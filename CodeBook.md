@@ -78,3 +78,4 @@ From the file 'activity_labels.txt' the activity names and their numeric placeho
 ## Output
 Finally the script outputs a file named tidydata.txt which orders the data by Subject (the person perorming the test), the Activity type and the measurement data.
 The format makes it usable both Machine Readable and Human Readable.
+
