@@ -31,6 +31,7 @@ I acknowledged these references [1]
 ## Data Setup
 
 First the data is read from the various files and placed in to vectors as:
+
 	testActivity = .\test\Y_test.txt
 	testSubject = .\test\subject_test.txt
 	testFeatures = .\test\X_test.txt
@@ -69,12 +70,12 @@ The same method is used for the other activities as per the script.
 ## Clarifying Activity Type
 From the file 'activity_labels.txt' the activity names and their numeric placeholders are:
 
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+	1 WALKING
+	2 WALKING_UPSTAIRS
+	3 WALKING_DOWNSTAIRS
+	4 SITTING
+	5 STANDING
+	6 LAYING
 
 ## Output
 Finally the script outputs a file named tidydata.txt which orders the data by Subject (the person perorming the test), the Activity type and the measurement data.
